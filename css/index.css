@@ -1,0 +1,53 @@
+@import "reset.css";
+@import "fonts.css";
+.wrapper {
+    background-color: #ccc;
+}
+.container {
+    border-right: 4px solid #d14eac;
+    border-left: 4px solid #d14eac;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+}
+.header {
+text-align: center;
+}
+
+.logo {
+    display:inline-block;
+    text-decoration: none;
+    color: black;
+}
+.logo:hover {
+    opacity: 0.7;
+}
+   .company-name {
+    display: block;
+    font-size:20px;
+    text-transform: uppercase;
+}
+.header-nav {
+    background-color: black;
+    padding: 0 30px;
+}
+.header-nav-list {
+    text-align: left;
+
+}
+.header-nav-list-item {
+    display: inline-block;
+}
+.header-nav-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 15px;
+    text-align: left;
+
+}
+.header-nav-link:hover{
+    background-color: rgba(255, 255, 0, 1);
+}
